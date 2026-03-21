@@ -12,7 +12,7 @@ baseURL: "https://personal.mathgradboard.com/"
 # Start Title Section
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Title-Section
 ################################################################################
-title: "Pythagoras of Samos"
+title: "Tyler Gurney"
 ################################################################################
 # End Title Section
 ################################################################################
@@ -39,19 +39,19 @@ params:
 
   navbar:
     align: ms-auto # No need to change
-    disableSearch: false
+    disableSearch: true
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable : false
+      showOnScrollUp : false
     menus:
       disableAbout: false
-      disableExperience: false
-      disableEducation: false
+      disableExperience: true
+      disableEducation: true
       disableProjects: true
-      disableAchievements: false
-      disableTalks: false
+      disableAchievements: true
+      disableTalks: true
       disableTeaching: false
-      disableContact: true
+      disableContact: false
       main:
         - identifier: Publications
           name: Publications
@@ -112,7 +112,7 @@ params:
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Hero-Section
 ################################################################################
   hero:
-    enable: true
+    enable: false
     intro: "Hi, my name is"
     title: "Pythagoras of Samos."
     subtitle: ""
@@ -149,11 +149,9 @@ params:
     title: "About Me"
     # image: "/images/Pythagoras.jpeg"
     content: |-
-        In dolor dolor, eleifend at leo a, viverra convallis risus. Aliquam eu leo
-        diam. Vivamus at urna dignissim, venenatis dolor ut, laoreet elit.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Graduate student at the University of Iowa.
     skills:
-      enable: true
+      enable: false
       title: "Here are some of my research interests:"
       items:
         - "Triangles"
@@ -172,7 +170,7 @@ params:
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Education-Section
 ################################################################################
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -207,7 +205,7 @@ params:
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Experience-Section
 ################################################################################
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Teacher"
@@ -238,7 +236,7 @@ params:
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Talks-Section
 ################################################################################
   talks:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -302,7 +300,7 @@ params:
 # https://github.com/uiowa-mgb/personal-site-template/wiki/Achievements-Section
 ################################################################################
   achievements:
-    enable: true
+    enable: false
     title: "Awards"
     items:
       - title: Some fellowship
@@ -357,8 +355,8 @@ params:
     enable: true
     # title: "Custom Name"
     # content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-    email: Pythagoras@mathgradboard.com
-    btnName: Mail me
+    email: tfgurney@uiowa.edu
+    btnName: Email
 
 
 ################################################################################
