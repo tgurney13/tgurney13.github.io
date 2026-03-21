@@ -272,21 +272,26 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Triangles 101"
+      - title: "Calculus for the Biological Sciences"
         info:
-          name: "University technical college"
-          url: "https://en.wikipedia.org/w/index.php?title=Hermodamas_of_Samos&action=edit&redlink=1"
-        date: "Fall 590 BC"
-      - title: "Circles 101"
-        info:
-          name: "University technical college"
-          url: "https://en.wikipedia.org/w/index.php?title=Hermodamas_of_Samos&action=edit&redlink=1"
-        date: "Spring 591 BC"
+          name: "University of Iowa"
+        date: "Fall 2024, Spring 2025"
         content: |-
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+            - Teaching assistant in charge of two discussion sections meeting twice a week
+            - Explained concepts, demonstrated example problems, proctored & graded weekly quizzes
+            - Calculus course for students in the biological Sciences
+            - Similar to standard first course in calculus
+      - title: "Engineering Math II"
+        info:
+          name: "University of Iowa"
+        date: "Fall 2025, Spring 2026"
+        content: |-
+            - Teaching assistant in charge of three (Fall 2025) and one (Spring 2026) discussion sections meeting twice a week
+            - Explained concepts, demonstrated example problems and solutions
+            - Second course in calculus sequence for engineering students
+            - Covers standard second course material like methods of integration, series and sequences, and calculus in polar coordinates
         featuredLink:
-          enable: true
+          enable: false
           name: "Syllabus"
           url: "https://example.com"
 
