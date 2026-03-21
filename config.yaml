@@ -272,13 +272,21 @@ params:
     # title: "Custom Name"
     index: false
     items:
+      - title: "Linear Algebra"
+        info:
+          name: "University of Wisconsin - Parkside"
+        date: "Fall 2023"
+        content: |-
+            - Supplemental instructor 
+            - Held hour sessions twice a week, explaining concepts from the course, demonstrating techniques, and answering questions
+            - Coordinated with course instructor weekly 
       - title: "Calculus for the Biological Sciences"
         info:
           name: "University of Iowa"
         date: "Fall 2024, Spring 2025"
         content: |-
             - Teaching assistant in charge of two discussion sections meeting twice a week
-            - Explained concepts, demonstrated example problems, proctored & graded weekly quizzes
+            - Explained concepts, demonstrated example problems, held weekly office hours, proctored & graded weekly quizzes
             - Calculus course for students in the biological Sciences
             - Similar to standard first course in calculus
       - title: "Engineering Math II"
@@ -287,7 +295,7 @@ params:
         date: "Fall 2025, Spring 2026"
         content: |-
             - Teaching assistant in charge of three (Fall 2025) and one (Spring 2026) discussion sections meeting twice a week
-            - Explained concepts, demonstrated example problems and solutions
+            - Explained concepts, demonstrated example problems and solutions, held weekly office hours
             - Second course in calculus sequence for engineering students
             - Covers standard second course material like methods of integration, series and sequences, and calculus in polar coordinates
         featuredLink:
