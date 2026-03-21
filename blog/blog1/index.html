@@ -110,7 +110,7 @@ Aliquam vitae dolor nec mi auctor dictum eget nec velit. Mauris vestibulum egest
 <script defer src="/fontawesome-6/all-6.4.2.js"></script>
 
   <title>
-In et turpis nec ex laoreet | Pythagoras of Samos
+In et turpis nec ex laoreet | Tyler Gurney
 
   </title>
 </head>
@@ -140,30 +140,6 @@ In et turpis nec ex laoreet | Pythagoras of Samos
 
 
 
-<script>
-    var prevScrollPos = window.pageYOffset;
-    window.addEventListener("scroll", function showHeaderOnScroll() {
-        let profileHeaderElem = document.getElementById("profileHeader");
-        let currentScrollPos = window.pageYOffset;
-        let resetHeaderStyle = false;
-        let showNavBarOnScrollUp =  true ;
-        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
-        if (showNavBar) {
-            profileHeaderElem.classList.add("showHeaderOnTop");
-        } else {
-            resetHeaderStyle = true;
-        }
-        if(currentScrollPos === 0) {
-            resetHeaderStyle = true;
-        }
-        if(resetHeaderStyle) {
-            profileHeaderElem.classList.remove("showHeaderOnTop");
-        }
-        prevScrollPos = currentScrollPos;
-    });
-</script>
-
-
 
 <header id="profileHeader">
     <nav class="pt-3 navbar navbar-expand-lg animate">
@@ -178,11 +154,6 @@ In et turpis nec ex laoreet | Pythagoras of Samos
             </a>
 
             
-                <div>
-                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Ctrl &#43; k to Search...'
-                        aria-label="Search" oninput="searchOnChange(event)">
-                </div>
-            
 
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
@@ -196,12 +167,6 @@ In et turpis nec ex laoreet | Pythagoras of Samos
             <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
                 <ul class="navbar-nav ms-auto text-center">
                     
-                        <li class="nav-item navbar-text d-block d-md-none">
-                            <div class="nav-link">
-                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Ctrl &#43; k to Search...' aria-label="Search" oninput="searchOnChange(event)">
-                            </div>
-                        </li>
-                    
 
                     
                     <li class="nav-item navbar-text">
@@ -212,32 +177,11 @@ In et turpis nec ex laoreet | Pythagoras of Samos
                     
 
                     
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#education"
-                            aria-label="education">
-                            Education
-                        </a>
-                    </li>
-                    
 
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#experience"
-                            aria-label="experience">
-                            Experience
-                        </a>
-                    </li>
                     
 
 
 
-                    
-                    <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#talks"
-                            aria-label="talks">
-                            Talks
-                        </a>
-                    </li>
                     
 
                     
@@ -252,14 +196,14 @@ In et turpis nec ex laoreet | Pythagoras of Samos
                     
 
                     
+
+                    
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="/#achievements"
-                            aria-label="achievements">
-                            Awards
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Contact
                         </a>
                     </li>
-                    
-
                     
 
                     
@@ -460,7 +404,7 @@ In et turpis nec ex laoreet | Pythagoras of Samos
 
   
   let stickySideBarElem = document.getElementById("stickySideBar");
-  let stickyNavBar =  true ;
+  let stickyNavBar =  false ;
   if(stickyNavBar) {
     let headerElem = document.getElementById("profileHeader");
     let headerHeight = headerElem.offsetHeight + 15;
@@ -502,12 +446,12 @@ In et turpis nec ex laoreet | Pythagoras of Samos
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             <div class="pb-2">
-                <a href="https://personal.mathgradboard.com/" title="Pythagoras of Samos">
+                <a href="https://personal.mathgradboard.com/" title="Tyler Gurney">
                     <img alt="Footer logo" src="/icons/favicon.ico"
                         height="40px" width="40px">
                 </a>
             </div>
-            &copy; 2024  All rights reserved
+            &copy; 2026  All rights reserved
             <div class="text-secondary">
                 Made with
                 <span class="text-danger">
@@ -548,8 +492,6 @@ In et turpis nec ex laoreet | Pythagoras of Samos
 
 </script>
 
-
-    <script src="/js/search.js"></script>
 
 
 
