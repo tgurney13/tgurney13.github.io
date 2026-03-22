@@ -52,24 +52,24 @@ params:
       disableTalks: true
       disableTeaching: false
       disableContact: false
-      main:
-        - identifier: Publications
-          name: Publications
-          title: Publications
-          url: /publications
+      # main:
+      #   - identifier: Publications
+      #     name: Publications
+      #     title: Publications
+      #     url: /publications
         #Dropdown menu
-        - identifier: dropdown
-          title: Example dropdown menu
-          name: Extras
-          children:
-            - identifier: Blog
-              title: Blog
-              name: Blog
-              url: /blog
-            - identifier: "???"
-              title: "???"
-              name: "???"
-              url: /another_section
+        # - identifier: dropdown
+        #   title: Example dropdown menu
+        #   name: Extras
+        #   children:
+        #     - identifier: Blog
+        #       title: Blog
+        #       name: Blog
+        #       url: /blog
+        #     - identifier: "???"
+        #       title: "???"
+        #       name: "???"
+        #       url: /another_section
 
 ################################################################################
 # End Navbar Section
@@ -125,15 +125,15 @@ params:
       url: "/pdf/CV.pdf"
       download: true
       newPage: false
-    socialLinks:
-      fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-linkedin
-          url: https://example.com
-      customIcons:
-        - icon: images/DNA.png
-          url: "https://example.com"
+    # socialLinks:
+    #   fontAwesomeIcons:
+    #     - icon: fab fa-github
+    #       url: https://example.com
+    #     - icon: fab fa-linkedin
+    #       url: https://example.com
+    #   customIcons:
+    #     - icon: images/DNA.png
+    #       url: "https://example.com"
 
 
 ################################################################################
@@ -149,7 +149,7 @@ params:
     title: "About Me"
     # image: "/images/Pythagoras.jpeg"
     content: |-
-        Graduate student at the University of Iowa.
+        Graduate student in the University of Iowa Department of Mathematics.
     skills:
       enable: false
       title: "Here are some of my research interests:"
